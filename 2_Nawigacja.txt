@@ -22,17 +22,25 @@ Aby przesunąć widok pliku do góry, użyj Ctrl-b.
 Użycie 'page up' daje taki sam efekt jak użycie Ctrl-b.
 
 Aby szybciej poruszać się w prawo wzdłóż jednej lini użyj 'w'.
-Za pomocą 'w' będziesz przenosić się po słowach.
-Za pomocą 'W' będziesz przenosić się po słowach, ale od spacji do spacji.
+Za pomocą 'w' będziesz przenosić się po słowach, uwzgędniając znaki,
+które separują wyrazy np. plik.txt -kursor zatrzyma się na literce 'p',
+kolejno na '.' a później na literce 't'.
+Za pomocą 'W' będziesz przenosić się po słowach, ale od spacji do spacji, 
+np. plik.txt - kursor zatrzyma się na literce 'p', a później dopiero na '-'.
 
 Aby szybciej poruszać się w lewo wzdóż jednej lini użyj 'b'.
-Za pomocą 'b' będziesz przenosić się po słowach.
+Za pomocą 'b' będziesz przenosić się po słowach(podobnie jak w przypadku 
+używania polecenia 'w').
 Za pomocą 'B' będziesz przenosić się po słowach, ale od spacji do spacji.
 
 Aby szybko przenieść się na koniec lini- użyj '$'.
 Aby szybko przenieść się na początek lini- użyj '0'.
 Możesz użyć także ':0' i wcisnąć ENTER.
 Aby szybko przenieść się na samą górę pliku- użyj 'gg'.
-Aby szybko przenieść się na sam dół pliku- uzyj 'G'.
+Aby szybko przenieść się na sam dół pliku- użyj 'G'.
 Możesz użyć także ':$' i wcinsąć ENTER.
-Aby przenieść się w określoną linijkę w pliku- uzyj na przykład '28gg' lub ':28' i wciśnij ENTER.
+Aby przenieść się w określoną linijkę w pliku- użyj na przykład '28gg' lub ':28' i wciśnij ENTER.
+
+Przypomnienie: 
+Aby wyjść z Vima użyj polecenia ':q!'. Plik nie zostanie zapisany.
+Jeśli chcesz zapisać zmiany, użyj polecenia ':wq'.
