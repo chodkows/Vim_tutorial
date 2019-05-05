@@ -1,0 +1,89 @@
+Cel:
+Zapoznanie się jak Vim rozwiązuje problem kopiowania, wklejania i wycinania.
+
+Instrukcja:
+W poprzedniej instrukcji była mowa o usuwaniu za pomocą komendy 'dd'.
+Komenda ta tak naprawdę wycina zdanie i przechowuje je w rejestrze.
+
+
+Do wklejania tekstu z rejestru służy komenda 'p'.
+Wkleja ona zdanie z rejestru poniżej kursora.
+Jeśli chcesz wkleić coś powyżej kursora, użyj 'P'.
+
+Jeśli chcesz wyciąć pojedynczą literę użyj 'x' lub 'X'.
+Jeśli chcesz wyciąć cały wyraz użyj 'dw' lub 'dW'.
+Jeśli chcesz wyciąć całe zdanie użyj 'dd'.
+
+Jeśli chcesz skopiować cały wyraz użyj 'yw'.
+Jeśli chcesz skopiować całe zdanie użyj 'yy'.
+
+Rejestry:
+Vim dostarcza 3 typy rejestrów:
+-zwykły(default register)
+-liczbowy(numbered register)
+-nazwany(named register)
+
+
+Żeby zapisać coś w rejestrze zwykłym, nie trzeba robić nic specjalnego.
+Do rejestru zwykłego trafiają litery, wyrazy lub zdania po komendach wymienionych wyżej.
+
+Aby zapisać coś do rejestru liczbowego należy użyć znaku "0 (cudzysłów zero).
+" oznacza rejestr. 0 oznacza numer rejestru, do którego trafi kopiowana zawartość.
+Rejestr liczbowy posiada zakres od 0 do 9.
+
+Aby zapisać coś do rejestru nazwanego należy użyć znaku "a (cudzysłów a).
+" oznacza rejestr. a oznacza nazwę rejestru, do którego trafi kopiowana zawartość.
+Rejestr nazwany sklada się ze wszystkich liter i znaków.
+Aby dopisać coś do rejestru nazwanego należy użyć wielkiej litery, np, "A
+
+Jeśli chcesz skopiować zdanie do rejestru a, użyj "ayy
+Jeśli chcesz wyciąć 2 wyrazy do rejestru numerowanego 2, użyj "2d2w
+Jeśli chcesz wyciąć 3 zdania do rejestru b, użyj "b3dd
+
+Aby zobaczyć co znajduje się w rejestrze użyj polecenia ':reg'.
+Aby zobaczyć tylko co znajduje się w rejestrze a i b użyj ':reg ab'.
+
+Jeśli przez przypadek została wykonana zła operacja, możesz użyć 'u'.
+Ostatania źle wykonana operacja zostanie cofnięta.
+Jeśli wykonano za dużo operacji cofnięcia, użyj CTRL-r. Usunięta operacja
+zostanie przywrócona.
+
+Praktyka:
+
+Wytnij tą linię i wklej ją poniżej kreskowanej lini.
+Tą linię także należy wyciąć.
+------------------------------------------------------------
+
+Ta linia tekstu powinna być za "Ten pies wabi się Burek."
+Ten pies wabi się Burek.
+
+Ta linia powinna być ponad "Ten pies wabi się Burek."
+
+Popraw kolejność liter lub słów używając wycinania i wklejania:
+fi
+badcfe
+na początek. Przesuń to
+dwa, trzy, Jeden, pięć. cztery,
+
+Zduplikuj ten tekst.
+
+Ja bardzo lubie vim! -zduplikuj bardzo kilka razy.
+
+Efekt : Ja bardzo, bardzo, bardzo, bardzo lubie vim!
+
+Zapisz ten text >>>VIM<<< do rejestru "2 i sprawdź czy Ci się udało.
+Wklej tu >>>VIM<<< tekst z rejestru "2
+Zapisz cały ten tekst do rejestru "a i sprawdź czy Ci się udało.
+Wklej poniżej tekst z rejestru "a.
+Zapisz cały ten tekst do rejestru "a i sprawdź czy Ci się udało.
+
+Litwo, Ojczyzno moja! ty jesteś jak zdrowie;
+Ile cię trzeba cenić, ten tylko się dowie,
+Kto cię stracił. Dziś piękność twą w całej ozdobie
+
+Wytnij 3 linijki tekstu powyżej, zapisz do rejestru "b i skopuj poniżej.
+
+Dodaj poniższą linijkę do rejestru "b.
+Widzę i opisuję, bo tęsknię po tobie.
+
+Wklej całość tekstu poniżej.
