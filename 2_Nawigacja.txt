@@ -1,0 +1,38 @@
+W Vimie do podstawowego poruszania się po pliku używa się klawiszy hjkl.
+
+Aby przesunąć kursor w dół, naciśnij klawisz 'j'.
+
+Aby przesunąć kursor w górę, naciśnij klawisz 'k'.
+
+Aby przesunąc kursor w prawo, naciśnij klawisz 'l'.
+
+Aby przesunąć kursor w lewo, naciśnij klawisz 'h'.
+
+Możesz przycisnąć któryś z klawiszy hjkl i przytrzymać, 
+aby przenieść kursor w odpowiednie miejsce kilka razy.
+
+Aby przesunąć kursor na samą górę pliku wciśnij i przytrzymaj klawisz 'k'.
+
+Aby przesunąć kursor na sam dół pliku wciśnij i przytrzymaj klawisz 'j'.
+
+Aby przesunąć widok pliku w dół, użyj Ctrl-f. 
+Użycie 'page down' daje taki sam efekt jak użycie Ctrl-f.
+
+Aby przesunąć widok pliku do góry, użyj Ctrl-b.
+Użycie 'page up' daje taki sam efekt jak użycie Ctrl-b.
+
+Aby szybciej poruszać się w prawo wzdłóż jednej lini użyj 'w'.
+Za pomocą 'w' będziesz przenosić się po słowach.
+Za pomocą 'W' będziesz przenosić się po słowach, ale od spacji do spacji.
+
+Aby szybciej poruszać się w lewo wzdóż jednej lini użyj 'b'.
+Za pomocą 'b' będziesz przenosić się po słowach.
+Za pomocą 'B' będziesz przenosić się po słowach, ale od spacji do spacji.
+
+Aby szybko przenieść się na koniec lini- użyj '$'.
+Aby szybko przenieść się na początek lini- użyj '0'.
+Możesz użyć także ':0' i wcisnąć ENTER.
+Aby szybko przenieść się na samą górę pliku- użyj 'gg'.
+Aby szybko przenieść się na sam dół pliku- uzyj 'G'.
+Możesz użyć także ':$' i wcinsąć ENTER.
+Aby przenieść się w określoną linijkę w pliku- uzyj na przykład '28gg' lub ':28' i wciśnij ENTER.

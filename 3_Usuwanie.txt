@@ -1,0 +1,67 @@
+Cel:
+Nauka i praktyka związana z usuwaniem.
+
+Instrukcja:
+Do usuwania pojedynczej literki służy 'x'.
+Do usuwania pojedynczej literki, ale przed pozycją kursora służy 'X'.
+
+W celu usunięcia całego wyrazu możesz posłużyć się
+złożeniem dwóch komend: 'dw', co może oznaczać "delete word".
+Aby usunąć kilka wyrazów możesz użyć 'd3w'. Zostaną usunięte 3 kolejne wyrazy.
+
+Jeśli chcesz usunąć coś od miejsca, w którym znajduje się kursor 
+do końca lini, możesz użyć 'd$' lub po prostu 'D'. 
+Jeśli natomiast chcesz usunąć coś od pozycji kursora, ale w stronę
+początku lini, użyj 'd0'. 
+
+Aby usunąć całe zdanie, użyj 'dd'.
+Jeśli chcesz usunąć 3 zdania, użyj '3dd'.
+
+Praktyka:
+
+Najpierw, napraw tą liteerówkę.
+Napraw także ttą.
+Usuń ten tekst za pomocą komendy X.
+
+Usuń ten wyraz: samochód.
+Usuń te 3 wyrazy: Ala ma kota.
+Usuń wszystkie wyrazy od tego miejsca: Król Karol kupił królowej Karolinie korale koloru koralowego.
+Ten tekst powinien być usunięty, a ten tekst powinien zostać.
+
+Cały ten tekst powinien zostać usunięty.
+
+Usuń wszystkie trzy zdania poniżej:
+Litwo, Ojczyzno moja! ty jesteś jak zdrowie;
+Ile cię trzeba cenić, ten tylko się dowie,
+Kto cię stracił. Dziś piękność twą w całej ozdobie
+Widzę i opisuję, bo tęsknię po tobie.
+
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć
+Jeden dwa trzy cztery pięć sześć siedem osiem dziewięć dziesięć

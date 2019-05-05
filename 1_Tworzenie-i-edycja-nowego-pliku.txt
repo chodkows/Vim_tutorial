@@ -1,0 +1,37 @@
+Cel:
+Celem ćwiczenia jest stworzenie pliku i jego edycja w Vim, praktyka przechodzenia 
+pomiędzy trybami: NORMAL MODE, INSERT MODE, COMMAND MODE. Podczas tego praktycznego 
+ćwiczenia stworzysz nowy plik w Vim, edytujesz go i zapiszesz.
+
+INSTRUKCJA: 
+
+Utwórz nowy plik:
+Otwórz terminal. Następnie użyj Vim, żeby stworzyć i edytować plik o nazwie myday.txt.
+Żeby to zrobić, w terminalu użyj polecenia 'vim myday.txt' i naciśnij ENTER.
+
+INSERT MODE:
+Aktualnie plik jest otwarty i w trybie NORMAL MODE. Naciśnij małą literkę i, 
+aby przejść w tryb INSERT MODE.
+
+Dodaj tekst:
+Teraz możesz zacząć pisać. Jeśli w Twoim tekście pojawiła się literówka
+- użyj przycisku backspace.
+
+Przechodzenie między trybami:
+Aby wyjść z trybu INSERT MODE kliknij przycisk ESCAPE. Zostanie uruchomiony NORMAL MODE.
+
+Zapisanie pliku:
+Aby zapisać plik, trzeba przejść w tryb NORMAL MODE naciskając klawisz ESCAPE.
+Następnie należy wpisać komendę :wq oraz kliknąć ENTER.
+Znak : powoduje, że Vim przejdzie w trym COMMAND MODE.
+Litera w oznacza write(zapisz).
+Litera q onzacza quite(wyjdź).
+
+Zweryfikuj, czy plik został zapisany:
+W terminalu wpisz: vim myday.txt i kliknij klawisz ENTER.
+Powinien otworzyć się Vim wraz z tekstem, który wcześniej został wpisany.
+Żeby wyjść z Vima bez zapisywania wpisz komendę :q! i kliknij klawisz ENTER.
+
+Znak : powoduje, że Vim przejdzie w trym COMMAND MODE.
+Litera q onzacza quite(wyjdź).
+Znak ! oznacza, że zmiany nie zostanie nadpisany.
